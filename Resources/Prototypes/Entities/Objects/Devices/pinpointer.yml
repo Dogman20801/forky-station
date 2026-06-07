@@ -201,15 +201,15 @@
     inhandVisuals:
       left:
       - state: inhand-left-base
-        color: "#3a3a3a"
+        color: "#9b5244"
       - state: inhand-left-stripe
-        color: "#3a3a3a"
+        color: "#9b5244"
       - state: inhand-left-top
       right:
       - state: inhand-right-base
-        color: "#3a3a3a"
+        color: "#9b5244"
       - state: inhand-right-stripe
-        color: "#3a3a3a"
+        color: "#9b5244"
       - state: inhand-right-top
   - type: Icon
     state: pinpointer-xenoborg

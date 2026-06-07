@@ -588,7 +588,7 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: PointLight
-    color: "#3010ff"
+    color: "#efdd91"
     energy: 7
   - type: GuideHelp
     guides:
