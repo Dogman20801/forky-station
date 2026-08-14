@@ -1,0 +1,87 @@
+# SPDX-FileCopyrightText: 2026 Dogman20801 <siggymaxwell@gmail.com>
+#
+# SPDX-License-Identifier: CC-BY-NC-SA-4.0
+
+- type: entity
+  id: BookCargoSecrets
+  parent: [BaseGuidebook, BaseCommandContraband]
+  name: cargo training manual
+  description: A brown folder full of documents. A green "APPROVED" is stamped multiple times on it.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Objects/Misc/books.rsi
+    layers:
+    - state: cargo-secrets
+#  - type: GuideHelp
+#    guides:
+#    - CargoTrainingManual
+
+- type: entity
+  id: BookCommandSecrets
+  parent: [BaseGuidebook, BaseCommandContraband]
+  name: command training manual
+  description: A yellow folder full of documents. There's some red lettering that says "FOR APPROVED PERSONAL ONLY" on it.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Objects/Misc/books.rsi
+    layers:
+    - state: command-secrets
+#  - type: GuideHelp
+#    guides:
+#    - CommandTrainingManual
+
+- type: entity
+  id: BookEngineerSecrets
+  parent: [BaseGuidebook, BaseCommandContraband]
+  name: engineer training manual
+  description: A orange folder full of documents. The pages are partially shredded, but the text is still legible.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Objects/Misc/books.rsi
+    layers:
+    - state: engi-secrets
+#  - type: GuideHelp
+#    guides:
+#    - EngineerTrainingManual
+
+- type: entity
+  id: BookMedicalSecrets
+  parent: [BaseGuidebook, BaseCommandContraband]
+  name: medical training manual
+  description: A teal folder full of documents. Significant portions of the pages are soaked in dried blood.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Objects/Misc/books.rsi
+    layers:
+    - state: med-secrets
+#  - type: GuideHelp
+#    guides:
+#    - MedicalTrainingManual
+
+- type: entity
+  id: BookScienceSecrets
+  parent: [BaseGuidebook, BaseCommandContraband]
+  name: science training manual
+  description: A purple folder full of documents. There's soot coating the border of the pages.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Objects/Misc/books.rsi
+    layers:
+    - state: sci-secrets
+#  - type: GuideHelp
+#    guides:
+#    - ScienceTrainingManual
+
+- type: entity
+  id: BookSecuritySecrets
+  parent: [BaseGuidebook, BaseCommandContraband]
+  name: security training manual
+  description: A red folder full of documents. There's a gold badge sticker stuck on the front, it looks like a scratch-and-sniff.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Objects/Misc/books.rsi
+    layers:
+    - state: sec-secrets
+#  - type: GuideHelp
+#    guides:
+#    - SecurityTrainingManual
