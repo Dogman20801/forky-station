@@ -14,7 +14,6 @@
     - id: ClothingHandsKnuckleDustersQM
     - id: PlushieLizardJobQuartermaster
       prob: 0.02
-    - id: BookCargoSecrets # Funky
 
 - type: entity
   id: LockerQuarterMasterFilled
@@ -53,7 +52,6 @@
         max: 15
     - id: PlushieLizardJobCaptain
       prob: 0.02
-    - id: BookCommandSecrets # Funky
 
 # No laser table + Laser table
 - type: entityTable
@@ -169,7 +167,6 @@
     - id: MetalFoamGrenade
     - id: PlushieLizardJobChiefengineer
       prob: 0.02
-    - id: BookEngineerSecrets # Funky
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -226,7 +223,6 @@
     - id: BoxCMOCircuitboards
     - id: PlushieLizardJobChiefmedicalofficer
       prob: 0.02
-    - id: BookMedicalSecrets # Funky
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -338,7 +334,6 @@
     - id: DrinkHosFlask
     - id: PlushieLizardJobHeadofsecurity
       prob: 0.02
-    - id: BookSecuritySecrets # Funky
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
