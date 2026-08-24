@@ -8,9 +8,9 @@
     sprite: _Funkystation/Objects/Misc/books.rsi
     layers:
     - state: cargo-secrets
-#  - type: GuideHelp
-#    guides:
-#    - CargoTrainingManual
+  - type: GuideHelp
+    guides:
+    - Cargo
 
 - type: entity
   id: BookCommandSecrets
@@ -22,9 +22,9 @@
     sprite: _Funkystation/Objects/Misc/books.rsi
     layers:
     - state: command-secrets
-#  - type: GuideHelp
-#    guides:
-#    - CommandTrainingManual
+  - type: GuideHelp
+    guides:
+    - Command
 
 - type: entity
   id: BookEngineerSecrets
@@ -36,9 +36,9 @@
     sprite: _Funkystation/Objects/Misc/books.rsi
     layers:
     - state: engi-secrets
-#  - type: GuideHelp
-#    guides:
-#    - EngineerTrainingManual
+  - type: GuideHelp
+    guides:
+    - Engineering
 
 - type: entity
   id: BookMedicalSecrets
@@ -50,9 +50,9 @@
     sprite: _Funkystation/Objects/Misc/books.rsi
     layers:
     - state: med-secrets
-#  - type: GuideHelp
-#    guides:
-#    - MedicalTrainingManual
+  - type: GuideHelp
+    guides:
+    - Medical
 
 - type: entity
   id: BookScienceSecrets
@@ -64,9 +64,9 @@
     sprite: _Funkystation/Objects/Misc/books.rsi
     layers:
     - state: sci-secrets
-#  - type: GuideHelp
-#    guides:
-#    - ScienceTrainingManual
+  - type: GuideHelp
+    guides:
+    - Science
 
 - type: entity
   id: BookSecuritySecrets
@@ -78,6 +78,6 @@
     sprite: _Funkystation/Objects/Misc/books.rsi
     layers:
     - state: sec-secrets
-#  - type: GuideHelp
-#    guides:
-#    - SecurityTrainingManual
+  - type: GuideHelp
+    guides:
+    - Security

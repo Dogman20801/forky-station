@@ -281,6 +281,7 @@
     - id: RubberStampRd
     - id: PlushieLizardJobResearchdirector
       prob: 0.02
+    - id: BookScienceSecrets # Funky
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
