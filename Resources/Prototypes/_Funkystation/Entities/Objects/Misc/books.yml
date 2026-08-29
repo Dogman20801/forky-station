@@ -1,13 +1,13 @@
 - type: entity
-  id: BookCargoSecrets
+  id: BookLogisticsSecrets
   parent: [BaseGuidebook, BaseCommandContraband]
-  name: cargo training manual
+  name: logistics training manual
   description: A brown folder full of documents. A green "APPROVED" is stamped multiple times on it.
   components:
   - type: Sprite
     sprite: _Funkystation/Objects/Misc/books.rsi
     layers:
-    - state: cargo-secrets
+    - state: logistics-secrets
   - type: GuideHelp
     guides:
     - Cargo
@@ -81,3 +81,31 @@
   - type: GuideHelp
     guides:
     - Security
+
+- type: entity
+  id: BookServiceSecrets
+  parent: [BaseGuidebook, BaseCommandContraband]
+  name: service training manual
+  description: A white folder full of documents. The cover looks worn and torn, with a scent of fresh bread.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Objects/Misc/books.rsi
+    layers:
+    - state: service-secrets
+  - type: GuideHelp
+    guides:
+    - Service
+
+- type: entity
+  id: BookInternalAffairsSecrets
+  parent: [BaseGuidebook, BaseCommandContraband]
+  name: internal affairs training manual
+  description: A black folder full of documents. There's red annotations scattered throughout the pages.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Objects/Misc/books.rsi
+    layers:
+    - state: internal-affairs-secrets
+  - type: GuideHelp
+    guides:
+    - RoleplayRules #Please change this to SOP related text, needed to put something here so the book actually functions.

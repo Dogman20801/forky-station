@@ -8,13 +8,16 @@
     },
     "states": [
         {
-            "name": "cargo-secrets"
+            "name": "logistics-secrets"
         },
         {
             "name": "command-secrets"
         },
         {
             "name": "engi-secrets"
+        },
+        {
+            "name": "internal-affairs-secrets"
         },
         {
             "name": "med-secrets"
@@ -24,6 +27,9 @@
         },
         {
             "name": "sec-secrets"
+        },
+        {
+            "name": "service-secrets"
         }
     ]
 }
