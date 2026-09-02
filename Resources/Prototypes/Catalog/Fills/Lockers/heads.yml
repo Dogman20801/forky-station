@@ -14,6 +14,8 @@
     - id: ClothingHandsKnuckleDustersQM
     - id: PlushieLizardJobQuartermaster
       prob: 0.02
+    - id: RadioHandheldCargo #funkystation
+    - id: RadioHandheldCommand #funkystation
     - id: BookLogisticsSecrets # Funky
 
 - type: entity
@@ -53,6 +55,7 @@
         max: 15
     - id: PlushieLizardJobCaptain
       prob: 0.02
+    - id: RadioHandheldCommand #funkystation
     - id: BookCommandSecrets # Funky
 
 # No laser table + Laser table
@@ -160,7 +163,7 @@
       prob: 0.15
     - id: ClothingBeltChiefEngineerFilled
     - id: ClothingEyesGlassesMeson
-    - id: ClothingHandsGlovesColorYellow
+    - id: FuClothingHandsGlovesInsuls #Funky
     - id: ClothingHeadsetAltEngineering
     - id: DoorRemoteEngineering
     - id: BoxCECircuitboards
@@ -170,6 +173,8 @@
     - id: MetalFoamGrenade
     - id: PlushieLizardJobChiefengineer
       prob: 0.02
+    - id: RadioHandheldEngineering #funkystation
+    - id: RadioHandheldCommand #funkystation
     - id: BookEngineerSecrets # Funky
 
 # Hardsuit table, used for suit storage as well
@@ -228,6 +233,8 @@
     - id: BoxCMOCircuitboards
     - id: PlushieLizardJobChiefmedicalofficer
       prob: 0.02
+    - id: RadioHandheldMedical #funkystation
+    - id: RadioHandheldCommand #funkystation
     - id: BookMedicalSecrets # Funky
 
 # Hardsuit table, used for suit storage as well
@@ -281,6 +288,8 @@
     - id: RubberStampRd
     - id: PlushieLizardJobResearchdirector
       prob: 0.02
+    - id: RadioHandheldScience #funkystation
+    - id: RadioHandheldCommand #funkystation
     - id: BookScienceSecrets # Funky
 
 # Hardsuit table, used for suit storage as well
@@ -343,6 +352,7 @@
     - id: DrinkHosFlask
     - id: PlushieLizardJobHeadofsecurity
       prob: 0.02
+    - id: RadioHandheldCommand #funkystation, no sec radio since they start with one
     - id: BookSecuritySecrets # Funky
 
 # Hardsuit table, used for suit storage as well
@@ -391,6 +401,8 @@
     - id: SpaceCash1000
     - id: BeachBall
     - id: BikeHorn
+    - id: RadioHandheldCommand #funkystation
+    - id: RadioHandheldEmergency #funkystation
 
 - type: entity
   id: LockerFreezerVaultFilled
