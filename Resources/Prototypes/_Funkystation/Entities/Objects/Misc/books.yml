@@ -44,7 +44,7 @@
   id: BookSentencingGuidelines
   parent: BaseGuidebook
   name: sentencing guidelines
-  description: A heavy brown book which contains information over criminal sentencing, court guidelines, and legal definitions. The pages are barely held together by thick metal rings.
+  description: A heavy brown book which contains information over criminal sentencing, court guidelines, and legal definitions. There's a white fuzzy tassel hanging from the bottom..
   components:
   - type: Sprite
     sprite: _Funkystation/Objects/Misc/Books/NCLP.rsi
