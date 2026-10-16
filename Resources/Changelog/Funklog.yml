@@ -1119,4 +1119,11 @@
   id: 131
   time: '2026-10-12T03:30:51Z'
   url: https://github.com/funky-station/forky-station/pull/577
+- author: mkanke
+  changes:
+  - message: Service blinker lights are now craftable
+    type: Add
+  id: 132
+  time: '2026-10-16T18:44:11Z'
+  url: https://github.com/funky-station/forky-station/pull/398
 Order: -1
