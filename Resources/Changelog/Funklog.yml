@@ -1148,4 +1148,11 @@
   id: 135
   time: '2026-10-20T08:43:34Z'
   url: https://github.com/funky-station/forky-station/pull/579
+- author: 1Yunis1
+  changes:
+  - message: Added the Pizzabomb, available for Syndicate agents
+    type: Add
+  id: 136
+  time: '2026-10-20T11:22:57Z'
+  url: https://github.com/funky-station/forky-station/pull/232
 Order: -1
